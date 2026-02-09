@@ -1,4 +1,6 @@
 import AWS from 'aws-sdk';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const region = process.env.AWS_REGION;
 const secretName = process.env.AWS_SECRET_NAME; // Replace with the name of your secret in Secrets Manager
