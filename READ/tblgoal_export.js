@@ -1,5 +1,5 @@
 import { executeRDSQuery } from '../rdsQueryExecutor.js';
-import { GOAL_SUM } from '../READ/tbl_export_constans.js';
+import { GOAL_SUM } from './tbl_export_constants.js';
 import fs from 'fs';
 import os from 'os';
 import * as fastcsv from 'fast-csv';
